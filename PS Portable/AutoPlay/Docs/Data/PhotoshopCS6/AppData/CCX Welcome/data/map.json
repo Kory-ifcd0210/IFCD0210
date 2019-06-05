@@ -1,0 +1,531 @@
+{
+  "version": 4,
+  "userCards": {
+    "26FB363E4F50A5530A490D4C@AdobeID": {
+      "V2_5": {
+        "ILST": {
+          "23": {
+            "es_ES": {
+              "trial": {
+                "latestId": "de9aad39-b7ba-409f-8004-223c4044959b",
+                "lastUsedId": "de9aad39-b7ba-409f-8004-223c4044959b"
+              }
+            }
+          }
+        },
+        "PPRO": {
+          "13": {
+            "es_ES": {
+              "trial": {
+                "latestId": "07544d71-0559-4288-a943-111cea468685",
+                "lastUsedId": "07544d71-0559-4288-a943-111cea468685",
+                "lastDisplayedId": "07544d71-0559-4288-a943-111cea468685"
+              }
+            }
+          }
+        },
+        "AEFT": {
+          "16": {
+            "es_ES": {
+              "trial": {
+                "latestId": "8859f47e-e517-46bf-b660-3010fadfc32e"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "userCardsCache": {
+    "de9aad39-b7ba-409f-8004-223c4044959b": {
+      "expiryTime": "2019-03-01T21:12:31.563Z",
+      "userId": "26FB363E4F50A5530A490D4C@AdobeID",
+      "lastUseTime": "2019-02-27T18:33:24.295Z",
+      "psdkParams": {
+        "productCode": "ILST",
+        "productVersion": "23.0.2",
+        "productLanguage": "es_ES",
+        "countryCode": "ES",
+        "subscriptionStatus": "trial",
+        "trialEndDTS": "2019-03-06T16:14:19.623Z",
+        "ccxVersion": "2.5.3.3",
+        "release": "CCXStart-2-5",
+        "numSophiaCards": 4
+      }
+    },
+    "07544d71-0559-4288-a943-111cea468685": {
+      "expiryTime": "2019-03-02T06:22:59.212Z",
+      "userId": "26FB363E4F50A5530A490D4C@AdobeID",
+      "lastUseTime": "2019-02-27T18:34:19.779Z",
+      "psdkParams": {
+        "productCode": "PPRO",
+        "productVersion": "13.0.3",
+        "productLanguage": "es_ES",
+        "countryCode": "ES",
+        "subscriptionStatus": "trial",
+        "trialEndDTS": "2019-03-06T16:20:48.595Z",
+        "ccxVersion": "2.5.3.3",
+        "release": "CCXStart-2-5",
+        "numSophiaCards": 4
+      }
+    },
+    "8859f47e-e517-46bf-b660-3010fadfc32e": {
+      "expiryTime": "2019-03-01T17:20:49.251Z",
+      "userId": "26FB363E4F50A5530A490D4C@AdobeID",
+      "lastUseTime": "2019-02-27T16:29:23.633Z",
+      "psdkParams": {
+        "productCode": "AEFT",
+        "productVersion": "16.0.1",
+        "productLanguage": "es_ES",
+        "countryCode": "ES",
+        "subscriptionStatus": "trial",
+        "trialEndDTS": "2019-03-06T16:29:23.633Z",
+        "ccxVersion": "2.5.3.3",
+        "release": "CCXStart-2-5",
+        "numSophiaCards": 4
+      }
+    }
+  },
+  "assetsCache": {
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/color-basics_297x176.jpg": {
+      "path": "assets/0dbd132d-148c-42c3-a91f-f9792a56d616.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:08 GMT",
+      "expiry": "2019-02-28T12:14:00.184Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/drawing-tools-basics_297x176.jpg": {
+      "path": "assets/3ff173df-a7ec-49bb-aec8-d9447c2384ed.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:38 GMT",
+      "expiry": "2019-02-28T12:14:00.186Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/shapes-basics_297x176.jpg": {
+      "path": "assets/07b35d60-0a00-4429-a1b4-a944968dd87d.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:50 GMT",
+      "expiry": "2019-02-28T12:14:00.185Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/text-basics_297x176.jpg": {
+      "path": "assets/13bb7271-8089-45ad-ab8a-74b0cdd6383c.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:18 GMT",
+      "expiry": "2019-02-28T12:14:00.185Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/ai-basics-fundamentals_297x176.jpg": {
+      "path": "assets/d447e5e7-60c2-42d7-8994-04bc28295719.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:47 GMT",
+      "expiry": "2019-02-28T12:14:00.289Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/edit-artwork-basics_297x176.jpg": {
+      "path": "assets/e2cdbcb2-cef7-40d6-90bb-fe7664d8475b.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:29 GMT",
+      "expiry": "2019-02-28T12:14:00.322Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/layers-basics_297x176.jpg": {
+      "path": "assets/50ddfa3f-abd2-41d3-9ca1-c332bfc06155.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:39 GMT",
+      "expiry": "2019-02-28T12:14:00.436Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/artboards-basics_297x176.jpg": {
+      "path": "assets/05019b89-580e-4d01-b545-e823fa04a153.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:08 GMT",
+      "expiry": "2019-02-28T12:14:00.381Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/image-effects-basics_297x176.jpg": {
+      "path": "assets/dd94024c-7e2d-4972-aed1-4368eef93914.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:51 GMT",
+      "expiry": "2019-02-28T12:14:00.603Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/use-pen-tool_297x176.jpg": {
+      "path": "assets/03254911-7ad4-4ce8-9c57-cbd7da9d7609.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:09 GMT",
+      "expiry": "2019-02-28T12:14:00.659Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/create-edit-artwork-with-paintbrush-pencil-tools_297x176.jpg": {
+      "path": "assets/767573a0-9c66-47fa-a22a-8af92863c1cd.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:18 GMT",
+      "expiry": "2019-02-28T12:14:00.660Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/edit-paths-you-draw_297x176.jpg": {
+      "path": "assets/745649d4-a23c-4bb7-824b-7d3009b4b96e.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:48 GMT",
+      "expiry": "2019-02-28T12:14:00.736Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/pen-tool-exercises_297x176.jpg": {
+      "path": "assets/b6cd5732-44d8-4024-ae36-ccdbe98dbd3f.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:50 GMT",
+      "expiry": "2019-02-28T12:14:00.737Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/draw-content-behind-and-inside_297x176.jpg": {
+      "path": "assets/aa3e68bd-d952-4ab6-a6f3-99f1f2076139.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:08 GMT",
+      "expiry": "2019-02-28T12:14:00.652Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/sharing-basics_297x176.jpg": {
+      "path": "assets/0f80ca46-9de4-4469-91a1-f2dd61e2ad8f.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:47 GMT",
+      "expiry": "2019-02-28T12:14:00.756Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/photoshop/how-to/logo-design_297x176.jpg": {
+      "path": "assets/03174b4d-192f-4dbe-a6cd-6d30ecfb2f90.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:42 GMT",
+      "expiry": "2019-02-28T12:14:00.703Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/recolor-artwork_297x176.jpg": {
+      "path": "assets/ea8736e8-9a8b-416e-aa2f-4965058dc891.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:59 GMT",
+      "expiry": "2019-02-28T12:14:00.802Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/create-an-icon_297x176.jpg": {
+      "path": "assets/4bcc272e-2229-41fa-9f88-bd40d1588c9f.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:27 GMT",
+      "expiry": "2019-02-28T12:14:00.897Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/1MT2ZEcmqoWMeyiWGQeMEs-ai_poster_icon_over.svg": {
+      "path": "assets/b17cafb8-f3e4-4fae-a138-27c97eb272d5.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:37:21 GMT",
+      "expiry": "2019-02-28T09:35:59.993Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/1DoqOqvZU4uIgKI0woQUys-ai_other_icon_over.svg": {
+      "path": "assets/1a8de36c-a05a-400a-896a-270ce97b9653.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:54:52 GMT",
+      "expiry": "2019-02-27T23:56:50.995Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/4aoq4yEareU2gISgAEemM0-ai_webpage_icon_over.svg": {
+      "path": "assets/7023bc61-ed65-484d-ac03-5e507bbf6675.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:41:17 GMT",
+      "expiry": "2019-02-28T09:35:59.118Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/5lbBP7bPvGuGC4csOgQmqw-ai_iphone_icon_over.svg": {
+      "path": "assets/fa49d31f-dc70-4e28-84d6-a4095d2e817f.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:45:15 GMT",
+      "expiry": "2019-02-28T00:08:12.189Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/1jKQAOHows8ymA20wgKYUk-trialist_m_overlay.png": {
+      "path": "assets/cde4b178-8697-4359-93f7-11230b03949c.png",
+      "lastModified": "Fri, 07 Dec 2018 08:38:21 GMT",
+      "expiry": "2019-02-28T06:56:26.205Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/4Y4xCmjRSwAUCyO8yqEcog-ai_a4_icon_over.svg": {
+      "path": "assets/7ad5c83c-1eec-4e3e-bfee-26ab20de5692.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:42:18 GMT",
+      "expiry": "2019-02-28T10:17:57.406Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/79ZdhUU2Yg0S4uWGmKIwks-ai_hdtv_icon_over.svg": {
+      "path": "assets/e122fcd4-d842-4029-86b3-0b4b9982893e.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:51:56 GMT",
+      "expiry": "2019-02-27T23:56:52.405Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/4hl95G6gXKk2WkK86yGeAk-ai_tutorials_loc_l_full%20(1).jpg": {
+      "path": "assets/7b3384f5-b199-4d00-ad11-25e4629526ab.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:45:09 GMT",
+      "expiry": "2019-02-27T23:56:50.169Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/jeS7x8lUNayycS8QECMoo-loc_language_icon_over.png": {
+      "path": "assets/48d23b70-c417-4848-a3d3-6708a335fca4.png",
+      "lastModified": "Fri, 07 Dec 2018 08:52:42 GMT",
+      "expiry": "2019-02-27T23:11:16.581Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/G41ioq5xYWSOuAAQe6K0K-ps_whatsnew_s_full%20(5).jpg": {
+      "path": "assets/f027445e-0d70-4770-ad5d-97c3638e72db.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:37:24 GMT",
+      "expiry": "2019-02-28T05:08:10.487Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/14r6bhPkIsmAg8icWqiEUS-ps_tutorials_s_full%20(2).jpg": {
+      "path": "assets/0ae47e59-3a3c-4001-9323-1f5fdffc338f.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:37:24 GMT",
+      "expiry": "2019-02-28T05:08:09.389Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/4t4cttK17i8CCKmaWIqk8m-ps_tour_s_full%20(4).jpg": {
+      "path": "assets/47da2822-aa40-41e0-88a1-5ac9c1882d83.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:52:00 GMT",
+      "expiry": "2019-02-28T04:06:56.490Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/6kYoMqx38IcckU8Cecy8i2-ai_learnpanel_alt1_l_full%20(2).jpg": {
+      "path": "assets/3b8ab0c0-e45a-4d45-ad5e-53f81086bfc5.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:42:18 GMT",
+      "expiry": "2019-02-28T06:35:34.207Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/add-image-text-adjust-size_297x176.jpg": {
+      "path": "assets/42dbb766-5c0f-4526-991d-52944f73cf16.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:00 GMT",
+      "expiry": "2019-02-28T12:20:00.367Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/trim-video-clips_297x176.jpg": {
+      "path": "assets/d4e1a563-b4ac-441b-881c-075343ccd2d9.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:22 GMT",
+      "expiry": "2019-02-28T12:20:00.401Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/create-project-import-media_297x176.jpg": {
+      "path": "assets/d702177f-1341-4540-bc2f-58e6aa69e259.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:02 GMT",
+      "expiry": "2019-02-28T12:20:00.475Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/create-edit-sequence_297x176.jpg": {
+      "path": "assets/b8f2c9a9-0ca1-4cb5-b16e-b3b00f58d7ba.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:22 GMT",
+      "expiry": "2019-02-28T12:20:00.529Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/work-explore-panels_297x176.jpg": {
+      "path": "assets/c8de5fed-247b-4049-8a68-e8ef875c89ca.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:22 GMT",
+      "expiry": "2019-02-28T12:20:00.434Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/add-effects-video-clips_297x176.jpg": {
+      "path": "assets/e8a7d6ab-c1ed-437f-a631-c783e67a4832.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:23 GMT",
+      "expiry": "2019-02-28T12:20:00.435Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/work-with-audio-voice-over_297x176.jpg": {
+      "path": "assets/2d6b47b0-75b5-467f-bb29-88eee4f6a436.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:23 GMT",
+      "expiry": "2019-02-28T12:20:00.492Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/edit-adjust-video-clips_297x176.jpg": {
+      "path": "assets/b5d46665-54da-4d7f-a42f-98d4cb55d97c.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:33 GMT",
+      "expiry": "2019-02-28T12:20:00.619Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/relink-offline-media_297x176.jpg": {
+      "path": "assets/dd68d322-045f-4fa2-9d83-ffe9d32643ad.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:22 GMT",
+      "expiry": "2019-02-28T12:20:00.809Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/import-with-media-browser_297x176.jpg": {
+      "path": "assets/3015b3cd-2f77-46e4-8f0c-a218e33aceb8.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:26 GMT",
+      "expiry": "2019-02-28T12:20:00.819Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/import-file-directly_297x176.jpg": {
+      "path": "assets/ba7f160f-bf11-4f24-98ca-320fef230d1a.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:34 GMT",
+      "expiry": "2019-02-28T12:20:00.842Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/mixed-frame-rates_297x176.jpg": {
+      "path": "assets/871cb4bf-3371-4da2-b35c-d464536f2437.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:24:59 GMT",
+      "expiry": "2019-02-28T12:20:00.880Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/opening-title_297x176.jpg": {
+      "path": "assets/741c6e2c-ce84-4ebf-b017-f82d0b6e3096.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:08 GMT",
+      "expiry": "2019-02-28T12:20:00.004Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/export-video-share-social-media_297x176.jpg": {
+      "path": "assets/c993188a-167e-436c-ba4c-53ca833b6890.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:33 GMT",
+      "expiry": "2019-02-28T12:20:00.029Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere/how-to/work-with-clips-channels-speed_297x176.jpg": {
+      "path": "assets/98cb12e1-89ef-4927-8700-8c094bbf82db.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:28 GMT",
+      "expiry": "2019-02-28T12:20:00.032Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/merge-mixed-footage_297x176.jpg": {
+      "path": "assets/294a5a67-3ff4-44b6-9dc8-5912be2aba8e.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:08 GMT",
+      "expiry": "2019-02-28T12:20:00.080Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/export-media-options_297x176.jpg": {
+      "path": "assets/9435e2ad-b3c5-4f77-b93d-ee9edfee0e77.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:03 GMT",
+      "expiry": "2019-02-28T12:20:00.995Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2T9bghmexaYS2oY2Y04Sia-pr_learnmore_s_full%20(2).jpg": {
+      "path": "assets/7832aa40-d2bf-4310-8d3e-2bcf4b11f72c.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:36:11 GMT",
+      "expiry": "2019-02-28T14:28:26.212Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2dGdbNaYfWmUKaUsQomuYM-pr_tutorials_loc_s_full%20(1).jpg": {
+      "path": "assets/c4ce6bd3-4b11-45f4-82cc-b38fabe31425.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 09:00:15 GMT",
+      "expiry": "2019-02-28T08:55:33.372Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/6qmSOUo8IEuYa2uOWecoMO-pr_whatsnew_s_overlay.png": {
+      "path": "assets/eaba0976-1f16-4f7a-a8ae-15c1b153c11c.png",
+      "lastModified": "Fri, 07 Dec 2018 08:47:13 GMT",
+      "expiry": "2019-02-27T20:58:02.357Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/5MAxVNOMfegyaGUcUuQs4Q-pr_learnmore_m_2third%20(2).jpg": {
+      "path": "assets/5fc59731-2690-43a6-a350-736faedab118.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:49:27 GMT",
+      "expiry": "2019-02-27T23:41:06.322Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2bkK8rw5AMqMAqaaKakiaG-pr_tutorials_loc_l_full%20(1).jpg": {
+      "path": "assets/81aa4d66-79f0-41fc-94db-b87e0b96cb17.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:47:12 GMT",
+      "expiry": "2019-02-27T23:41:06.405Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/6MufCUQciQawWWKCSSUY0u-pr_tutorials_m_overlay%20(2).png": {
+      "path": "assets/d8d5bef3-0e79-401a-8365-9d888b9d0765.png",
+      "lastModified": "Fri, 07 Dec 2018 08:38:38 GMT",
+      "expiry": "2019-02-27T20:58:02.411Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2WmyQCfSKQMgm82MaUA6YY-pr_tutorials_s_full%20(2).jpg": {
+      "path": "assets/32584686-56fc-46aa-b213-7c14f857a48f.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:34:45 GMT",
+      "expiry": "2019-02-28T08:55:33.418Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/GLyUe6JDOgsswoqkOKW0I-pr_whatsnew_s_full%20(1).jpg": {
+      "path": "assets/ff437fc4-7b51-46e2-9b57-b872ec2374b6.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:34:45 GMT",
+      "expiry": "2019-02-27T23:41:06.668Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/49gsc4PVp620eC4EMuKkqu-pr_learnmore_l_full%20(2).jpg": {
+      "path": "assets/f35fc758-eb6a-4846-8834-50b3d231b860.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:34:45 GMT",
+      "expiry": "2019-02-27T20:58:01.560Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/create-video-visual-effects_297x176.jpg": {
+      "path": "assets/83dc244a-ee49-463f-a628-8afe75cd3835.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:13 GMT",
+      "expiry": "2019-02-27T16:44:00.732Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/create-custom-transitions_297x176.jpg": {
+      "path": "assets/71d6c613-fc7c-402d-b589-cd21ea7b66ac.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:25 GMT",
+      "expiry": "2019-02-27T16:44:00.767Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/create-animated-background_297x176.jpg": {
+      "path": "assets/8e53016e-960e-4155-acef-5fbbdcabfd41.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:39 GMT",
+      "expiry": "2019-02-27T16:44:00.724Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/work-in-3d_297x176.jpg": {
+      "path": "assets/50bc3e2e-b813-4ab6-a41e-c1770484fdb2.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:13 GMT",
+      "expiry": "2019-02-27T16:44:00.824Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/after-effects/how-to/creating-animating-text_297x176.jpg": {
+      "path": "assets/889d7fce-b1f9-4d6d-aa6d-c6869a1865e5.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:12 GMT",
+      "expiry": "2019-02-27T16:44:00.821Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/after-effects/how-to/animate-title-reveal_297x176.jpg": {
+      "path": "assets/27b0cb18-eb77-4a6b-bfae-623d68605ab7.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:14 GMT",
+      "expiry": "2019-02-27T16:44:00.807Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/animate-group-layers_297x176.jpg": {
+      "path": "assets/32258b7c-ac01-453c-b053-241e371dcbf8.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:26:35 GMT",
+      "expiry": "2019-02-27T16:44:00.807Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/after-effects/how-to/render-video-composition_297x176.jpg": {
+      "path": "assets/de4f5584-d7e9-46bd-b029-67a2f648d899.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:46 GMT",
+      "expiry": "2019-02-27T16:44:00.899Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/after-effects/how-to/animate-lower-third_297x176.jpg": {
+      "path": "assets/1b7712dc-cfea-4d61-9fea-7b41ba54f0ce.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:13 GMT",
+      "expiry": "2019-02-27T16:44:00.118Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/warp-stabilizer-vfx_297x176.jpg": {
+      "path": "assets/723cd138-d5c0-418c-b749-5b3feb602825.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:38 GMT",
+      "expiry": "2019-02-27T16:44:00.178Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/rotoscoping_297x176.jpg": {
+      "path": "assets/2392bc51-0736-4db8-bb5d-2b6b00d372ed.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:29 GMT",
+      "expiry": "2019-02-27T16:44:00.170Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/keying-effects_297x176.jpg": {
+      "path": "assets/e05ce8af-5a82-4ccb-8914-e915f7c541f4.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:40 GMT",
+      "expiry": "2019-02-27T16:44:00.399Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/add-video-special-effects_297x176.jpg": {
+      "path": "assets/6b294b64-7853-45f1-8486-3ccaac10531a.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:14 GMT",
+      "expiry": "2019-02-27T16:44:00.401Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/render-video-for-youtube_297x176.jpg": {
+      "path": "assets/0f66e795-2c19-4d93-bbd1-c8cb590613c9.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:29 GMT",
+      "expiry": "2019-02-27T16:44:00.417Z"
+    },
+    "https://helpx.adobe.com/content/dam/help/en/aftereffects/how-to/add-3d-text-video-footage_297x176.jpg": {
+      "path": "assets/99a84026-ac95-427e-84c7-51e3b300048e.jpeg",
+      "lastModified": "Thu, 21 Feb 2019 21:25:13 GMT",
+      "expiry": "2019-02-27T16:44:00.467Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2vWcjsaEcwOMCAw6siCMQc-ae_tutorials_s_full%20(2).jpg": {
+      "path": "assets/76149810-9666-49e8-b221-a675f6e840a2.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:44:35 GMT",
+      "expiry": "2019-02-28T07:57:38.477Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2NACswi77iACsW8IkkwgOA-ae_tutorials_loc_l_full%20(1).jpg": {
+      "path": "assets/1856ccc1-57a6-4e28-928e-32e5c1da176f.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:34:49 GMT",
+      "expiry": "2019-02-28T07:57:38.402Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/1pCqnCOFeggOaaGSCAWAcs-ae_whatsnew_s_full%20(3).jpg": {
+      "path": "assets/d0109762-0be8-4a79-9f2f-f7cb535d1907.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:37:49 GMT",
+      "expiry": "2019-02-28T07:57:38.446Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2SMltAj4ggkuGiE4kyiAE8-ae_whatsnew_m_overlay%20(2).png": {
+      "path": "assets/05406a43-40ff-4b44-8e18-73463fcab115.png",
+      "lastModified": "Fri, 07 Dec 2018 08:41:28 GMT",
+      "expiry": "2019-02-28T07:57:38.733Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/5X20hmdhSg42sAwYGW2go-ae_whatsnew_s_full.jpg": {
+      "path": "assets/2102977c-beea-4b3a-b870-bbadbac7c7cb.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:34:50 GMT",
+      "expiry": "2019-02-28T07:57:38.732Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/5rPZnJgwHCO2cucW4qMK0G-S_Illu_AddFootageAe_160x120.svg": {
+      "path": "assets/6abeda68-4a15-4a20-88d7-69fa8f34a353.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:35:04 GMT",
+      "expiry": "2019-02-28T07:57:38.846Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/7CAm0liLa8Cgay08iiAAgw-ae_learnmore_l_full%20(4).jpg": {
+      "path": "assets/da978856-accb-4cbc-baf2-1a63ede516d3.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:44:29 GMT",
+      "expiry": "2019-02-28T07:57:38.812Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/7Et25MIN9ugUQGC2ISEq6K-trialist_m_2third.png": {
+      "path": "assets/7370fa27-0aa5-48a7-b95e-ad1ff7a14509.png",
+      "lastModified": "Fri, 07 Dec 2018 08:38:12 GMT",
+      "expiry": "2019-02-28T02:54:44.923Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/65YNmowZEWaEOomSiwYuSi-ae_learnmore_l_full%20(3).jpg": {
+      "path": "assets/240193f8-4971-42a5-af8d-a612d2fd36dc.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:43:57 GMT",
+      "expiry": "2019-02-28T07:57:38.920Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/5mRD8aYzVCSmSsEq4yeIAy-S_Illu_Localization_520x200.svg": {
+      "path": "assets/a694a0e0-cec7-4768-984f-394427856448.svg",
+      "lastModified": "Fri, 07 Dec 2018 08:41:16 GMT",
+      "expiry": "2019-02-28T05:45:59.196Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/1839TaK8P2o0SEO2KWa0Kw-ai_learnpanel_alt1_m_overlay%20(2).png": {
+      "path": "assets/94f9ffab-5b55-49f5-86ba-ca79559b25d3.png",
+      "lastModified": "Fri, 07 Dec 2018 09:04:29 GMT",
+      "expiry": "2019-02-28T05:45:59.307Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/6rPPbc23n2yg6im4KEac22-ai_tutorials_s_full%20(1).jpg": {
+      "path": "assets/fbc0ca42-8d7a-45db-9acb-075cbac2aff7.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:41:16 GMT",
+      "expiry": "2019-02-28T07:05:22.292Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/5Jekq8ZACQkCk68I0ICESe-ai_tutorials_loc_m_overlay%20(1).png": {
+      "path": "assets/cf003bc1-9efa-42d2-8174-2627e1a973a9.png",
+      "lastModified": "Fri, 07 Dec 2018 08:39:19 GMT",
+      "expiry": "2019-02-28T12:12:19.364Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/4QDdK6eg7YY20YKqiQ6K8y-ai_video_s_full%20(1).jpg": {
+      "path": "assets/2ae33bb7-347d-4575-baf8-71dd6f2f2487.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:45:09 GMT",
+      "expiry": "2019-02-28T12:12:19.217Z"
+    },
+    "https://cvs.adobe.com/content/dam/cvs/firstmile/assets/2YmMI6nj5CsyYQysCGSIIm-ai_whatsnew_s_full%20(3).jpg": {
+      "path": "assets/80af142d-1aa9-49b4-bff8-790aa97ddd76.jpeg",
+      "lastModified": "Fri, 07 Dec 2018 08:44:35 GMT",
+      "expiry": "2019-02-28T07:05:22.437Z"
+    }
+  },
+  "usersInfo": {
+    "26FB363E4F50A5530A490D4C@AdobeID": {
+      "lastTimeOfNotification": 1520208149713
+    }
+  }
+}

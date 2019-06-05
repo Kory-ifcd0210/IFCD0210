@@ -1,0 +1,44 @@
+*{
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+.div1{
+	background-color: #D0E4F2;
+	float: left;
+	width: 1000px;
+	margin-left: 20px;
+}
+
+.div2{
+	background-color: rgba(3, 14, 93, 0.5);
+	float: left;
+	border-radius: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 100px;
+	height: 500px;
+}
+.div3{
+	background-color: red;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+body{
+	background-image: url(../imagenes/fondo.jpg);
+}
+
+p{
+	font-family: helvetica;
+}
+
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+	word-spacing: 0.6px;
+}
+
+p a{
+	color: #CC0E0E;
+}

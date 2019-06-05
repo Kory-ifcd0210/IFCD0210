@@ -5,30 +5,112 @@
 		<meta charset="utf-8">
 		<title>TEMA 3: Web en html</title>
 		<meta name="keywords" content="práticas, ejemplos, html, pruebas, web, página">
+		<!--CSS interno-->
+		<style type="text/css">
+			.block{
+				float: left;
+				background-color: #FFF6B9;
+				width: 30%;
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-top: 5px;
+			}
+			.block2{
+				float: left;
+				background-color: #FBE0E0;
+				width: 60%;
+				margin-left: 2%;
+			}
+			.block3{
+				display: inline-block;
+			}
+			p{
+				text-align: justify;
+			}
+			*{
+				font-family: helvetica;
+				margin-left: 2%;
+				margin-right: 2%;
+			}
+		</style>
+
 	</head>
+
 <body>
 	<!-- Edición de texto en colores, tamaños, y estilos-->
 	<font face="impact" color="#F99927"> 
 		<!--font href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet"-->
+		
 		<h1>Apuntes ¿Cómo hacer mi página web?</h1>
 	</font>
-	<font face="helvetica" size="4"><b><i>Esto es una web de prueba para el Tema 3 sobre la construcción de un HTML</i></b></font>
+	<!-- ejemplo de estilo css en línea, style-->
+	<p style="color: red">Esto es una web de prueba para el Tema 3 sobre la construcción de un HTML</p>
 	<br>
 	<br>
-	<font face="helvetica">Los</font>
-	<a href="https://www.inboundemotion.com/blog/herramientas-online-generar-paletas-cromaticas" target="ventana-1">
-		<font size="8" face="impact"><font color="#FF7A22">C</font><font color="#FFBE22">O</font><font color="#FFF722">L</font><font color="#E2FF22">O</font><font color="#A9FF22">R</font><font color="#60FF22">E</font><font color="#22FF70">S</font></font>
-	</a>
-	<font face="helvetica">son fundamentales en la creación de una página web. Bueno, es fundamental en toda comunicación ya sea online u offline.
-		<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	
+	<!-- No funciona como espero
+	<aside>
+		<div class="block">
+			<h3>Titulo</h3>
+          <ul>
+            <li>Opciones</li>
+          </ul>
+		</div>
+	</aside>
+	-->
+
+	<div class="block">
+		<p>Los
+		<a href="https://www.inboundemotion.com/blog/herramientas-online-generar-paletas-cromaticas" target="ventana-1">
+			<font size="8" face="impact"><font color="#FF7A22">C</font><font color="#FFBE22">O</font><font color="#FFF722">L</font><font color="#E2FF22">O</font><font color="#A9FF22">R</font><font color="#60FF22">E</font><font color="#22FF70">S</font></font>
+		</a>
+		son fundamentales en la creación de una página web. Bueno, es fundamental en toda comunicación ya sea online u offline.
+		</p>
+	</div>	
 		<br>
-		<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</font>
+
+	<section>
+		<div class="block2">
+		<!--Texto de parrafo justificado central "align" y sangría a ambos lados "blockquote"-->
+			<p align="center"><blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote></p>
+		</div>
+	</section>
+		
+		<div class="block3">
+			<br>
+		<!--Para separar los párrafos con línea "hr"-->
+			<hr width="200" size="2"><hr width="100"><hr width="50">
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Donec ante eros, finibus mollis tempor nec, volutpat at odio. Mauris congue, dui id viverra tincidunt, mauris dolor suscipit nisl, in commodo risus mi in nunc. Quisque condimentum justo lectus, vitae placerat ligula dignissim vitae. Vivamus lacinia urna sed magna hendrerit, eu faucibus ante vehicula. Mauris elit urna, eleifend ac erat id, tempor scelerisque arcu. Nunc quis facilisis quam. Pellentesque erat mi, egestas placerat placerat ut, dictum eget turpis. Aliquam erat volutpat. In iaculis purus eget pellentesque sagittis. In enim urna, pellentesque porttitor sapien ac, lacinia rhoncus sem. Duis dui dui, ornare quis dictum quis, laoreet sit amet risus. In a metus non neque ornare mollis semper id libero. Maecenas bibendum nisl vitae lacus sodales pharetra vitae bibendum velit. Quisque vitae commodo erat, non finibus mi.
+			</p>
+		</div>
+			<!--Para meter un párrafo dentro de un recuadro "fieldset" en necesaria la etiqueta <p/>. "legend" interrumpe el marco y coloca un título en medio editado con css en linea-->
+		<fieldset style="box-shadow: 6px 6px 15px #97E0C0;"><legend align="center"><b><h3>Párrafo con marco</h3></b></legend>
+			<!--Estilo CSS en linea de cssmaker.com-->
+			<p style="text-shadow:6px 3px 2px #ACACAC;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</fieldset>
+
 	<!-- enlace a email con asunto y body predefinidos-->
 	<br><a href="mailto:korypf@gmail.com?&subject=Asunto de colores&body=Necesito más información para seguir viviendo">Enviar e-mail serio</a>
-	<br><table border="2">
+	
+	<!--Listas-->
+	<ul>
+		<li>Tipo de listas</li>
+		<li type="square">desordenada</li>
+		<li type="square">ordenada</li>
+		<li type="square">de definiciones</li>
+	</ul>
+	<ol>
+		<li type="A" start="1">Elementos de una lista</li>
+		<li type="i">Viñetas</li>
+		<li type="i">Números</li>
+		<li type="i">Letras</li>
+		<li type="A" start="2">Segundo título</li>
+	</ol>
+	<br><table border="3">
 			<caption>Prueba de tabla</caption>
-		<!-- Para dar a la tabla diferencia de tamaño entre las columnas -->
+	
+	<!-- Para dar a la tabla diferencia de tamaño entre las columnas -->
 			<colgroup>
 				<col style="width: 20%"/>
 				<col style="width: 30%"/>
@@ -62,7 +144,42 @@
 				</tr>
 			</tbody>
 		</table>
+		<br>
+		<hr>
+		<br>
+	
+	<!--Formulario-->
+	<form>
+		<fieldset><legend><h2>Prueba de formulario</h2></legend>
+			<!--"placeholder" para colocar un texto predefinido en la casilla que al escribir se borra-->
+			<p>Nombre:* <input type="text" name="nombre" required placeholder="Dr Esteven">
+				Apellidos: <input type="text" name="apellidos" size="40" placeholder="Strange">
+				Apodo: <input type="text" name="nombre" required placeholder="Dr Strange">
+			</p>
+			<p>Sexo:*
+  				<input type="radio" name="hm" value="hombre" required> Hombre
+  				<input type="radio" name="hm" value="mujer" required> Mujer
+  				<input type="radio" name="hm" value="inter" required> Inter
+			</p>
+			<p>Edad: <input type="number" name="numero" min="12" max="150">
+				Fecha de Nacimiento: <input type="date" name="fecha" size="20">
+			</p>
+			<p>
+				Portafolio: <input type="url" name="direccion" size="40" placeholder="www.portafoliodrstrange.com/avengers">
+				Correo: <input type="email" name="correo" size="40" placeholder="strange@marvel.com">
+			</p>
+			<p>
+				<input type="reset" value="Borrar">
+			</p>
+			<button type="button" onclick="mensaje('Enorabuena! La curiosidad mató al gato. Tenemos sus datos así que no se preocupe, contactaremos enseguida. Besis :)')">¿Y esto?</button>
+				<script>
+  					function mensaje(texto) {
+    				alert(texto);
+ 					}
+				</script>
+		</fieldset>
+	</form>
 
-
+</body></html>
 </html>
 </html>
