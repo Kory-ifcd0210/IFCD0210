@@ -1,31 +1,54 @@
+/*ejemplo de selector universal*/
 *{
 	color: #FFFFFF;
 	text-align: justify;
+	margin: 0;
+	padding: 0;
 }
 
-.div1{
-	background-color: #D0E4F2;
+/*ejemplo de selector identificador*/
+#principal{
+	background-color: rgba(0,0,0,.6);
 	float: left;
-	width: 1000px;
-	margin-left: 20px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+/*ejemplo de clase*/
+.div1{
+	/*background-color: #D0E4F2;*/
+	float: left;
+	width: 55%;
+	margin-left: 1%;
 }
 
 .div2{
-	background-color: rgba(3, 14, 93, 0.5);
+	background-color: rgba(3, 14, 93, 0.3);
 	float: left;
 	border-radius: 30px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-left: 100px;
-	height: 500px;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	margin-left: 10%;
+	height: 50vmax;
 }
 .div3{
-	background-color: red;
-	margin-left: 100px;
-	margin-right: 100px;
+	/*background-color: red;*/
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
 }
 
+.foto{
+	width: 30%;
+	height: 30%;
+}
+
+/*ejemplo selector tipo elemento*/
 body{
 	background-image: url(../imagenes/fondo.jpg);
 }
@@ -39,6 +62,64 @@ h1, h2, h3{
 	word-spacing: 0.6px;
 }
 
+/*ejemplo selector descendente*/
 p a{
 	color: #CC0E0E;
+}
+
+/*plantilla de tabla predefinida http://tablestyler.com/# */
+.datagrid table { 
+	border-collapse: collapse;
+	text-align: left; 
+	width: 100%; 
+} 
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 5px solid #991821; 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px; 
+}
+.datagrid table td, .datagrid table th {
+	 padding: 0px 10px; 
+}
+.datagrid table thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C) );
+	background:-moz-linear-gradient( center top, #991821 5%, #80141C 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+	background-color:#991821; 
+	color:#FFFFFF; 
+	font-size: 14px; 
+	font-weight: bold; 
+} 
+.datagrid table thead th:first-child {
+	border: none; 
+}
+.datagrid table tbody td {
+	color: #80141C; 
+	font-size: 12px;
+	font-weight: normal; 
+}
+.datagrid table tbody .alt td { 
+	background: #F7CDCD; 
+	color: #80141C; 
+}
+.datagrid table tbody td:first-child {
+	border-left: none; 
+}
+.datagrid table tbody tr:last-child td {
+	border-bottom: none; 
+}
+.datagrid table tfoot td div {
+	border-top: 1px solid #991821;
+	background: #F7CDCD;
+} 
+.datagrid table tfoot td {
+	padding: 0;
+	font-size: 12px 
+} 
+.datagrid table tfoot td div{
+	 padding: 0px; 
 }
