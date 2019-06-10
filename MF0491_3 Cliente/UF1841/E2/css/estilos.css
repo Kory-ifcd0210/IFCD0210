@@ -17,15 +17,15 @@
 	margin-top: 2%;
 }
 
-/*ejemplo de clase*/
-.div1{
+/*ejemplos de clase*/
+.section{
 	/*background-color: #D0E4F2;*/
 	float: left;
 	width: 55%;
 	margin-left: 1%;
 }
 
-.div2{
+.aside{
 	background-color: rgba(3, 14, 93, 0.3);
 	float: left;
 	border-radius: 30px;
@@ -33,19 +33,15 @@
 	padding-left: 2%;
 	padding-right: 2%;
 	padding-bottom: 1%;
-	margin-left: 10%;
-	height: 50vmax;
+	margin-left: 8%;
+	height: 60vmax;
+	width: 25%;
 }
-.div3{
+.head{
 	/*background-color: red;*/
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 2%;
-}
-
-.foto{
-	width: 30%;
-	height: 30%;
 }
 
 /*ejemplo selector tipo elemento*/
@@ -53,21 +49,72 @@ body{
 	background-image: url(../imagenes/fondo.jpg);
 }
 
-p{
-	font-family: helvetica;
+p, ul{
+	font-family: arial, helvetica;
 }
 
 h1, h2, h3{
 	font-family: 'Oswald', sans-serif;
-	word-spacing: 0.6px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
 }
 
 /*ejemplo selector descendente*/
 p a{
-	color: #CC0E0E;
+	color: #AC0B35;
+	font-weight: bold;
+	text-decoration: none;
 }
 
-/*plantilla de tabla predefinida http://tablestyler.com/# */
+/*aplicar css a etiquetas propias creadas en xhtml*/
+encabezado{
+	font-weight: bolder;
+}
+encabezado2{
+	color: silver;
+	font-weight: bold;
+}
+
+/*ejemplo selector de atributo de lista*/
+[type="circle"]{
+	color: silver;
+	margin-left: 5%;
+}
+
+/*ejemplo de selector de atribto enlace con pseudo-clases*/
+a[href*=".com"]:hover{
+	color: silver;
+	font-weight: bold;
+}
+
+/*propiedades para las imágenes utilizando varias características CSS*/
+.foto{
+	height: 30%;
+	width:30%;
+}
+
+/*cambio de imagen con hover*/
+.logolevante {
+  position: relative;
+  height: 40%;
+  width: 100%;
+  margin: 10% auto;
+  float: left;
+}
+
+.logolevante img {
+  position: absolute;
+  left: 0;
+  transition: opacity 1.5s ease-in-out;
+  height: 100%;
+}
+
+.logolevante img.top:hover {
+  opacity: 0;
+}
+
+
+/*plantilla de tabla predefinida de http://tablestyler.com/# */
 .datagrid table { 
 	border-collapse: collapse;
 	text-align: left; 
@@ -77,10 +124,10 @@ p a{
 	font: normal 12px/150% Arial, Helvetica, sans-serif; 
 	background: #fff; 
 	overflow: hidden; 
-	border: 5px solid #991821; 
+	border: 2px solid #991821; 
 	-webkit-border-radius: 10px; 
 	-moz-border-radius: 10px; 
-	border-radius: 10px; 
+	border-radius: 15px; 
 }
 .datagrid table td, .datagrid table th {
 	 padding: 0px 10px; 

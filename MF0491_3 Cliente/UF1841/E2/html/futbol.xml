@@ -3,26 +3,60 @@
 <futbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3%20Cliente/UF1841/E2/prueba%20schema.xsd">
 	
 			<!-- Características principales Equipo-->
-	<nombre>Levante Unión Deportiva</nombre>
+	<nombre>Levante Unión Deportiva Femenina</nombre>
 	<ciudad>Valencia</ciudad>
-	<anyo>1909</anyo>
-	<entrenador>Paco López</entrenador>
+	<anyo>1993</anyo>
+	<entrenador>Joaquín García</entrenador>
 	<presidente>Francisco Catalán</presidente>
 
 			<!-- Características principales de cada jugador, máximo 11. Además, es un campo obligatorio "required"-->
 	<jugadores>
 		<jugador posicion="portero">
-			<nombre>Javier Jiménez</nombre>
+			<nombre>Sandra Torres</nombre>
+			<nacionalidad>española</nacionalidad>
+		</jugador>
+		<jugador posicion="defensa">
+			<nombre>Greta Espinoza</nombre>
+			<nacionalidad>mexicana</nacionalidad>
+		</jugador>
+		<jugador posicion="defensa">
+			<nombre>Patri Padilla</nombre>
+			<nacionalidad>española</nacionalidad>
+		</jugador>
+		<jugador posicion="defensa">
+			<nombre>Sonia Prim</nombre>
+			<nacionalidad>española</nacionalidad>
+		</jugador>
+			<jugador posicion="defensa">
+			<nombre>Andrea Palacios</nombre>
+			<nacionalidad>española</nacionalidad>
+		</jugador>
+		<jugador posicion="defensa">
+			<nombre>Ana Buceta</nombre>
+			<nacionalidad>española</nacionalidad>
+		</jugador>
+		<jugador posicion="centrocampista">
+			<nombre>Laura Guti</nombre>
+			<nacionalidad>española</nacionalidad>
+		</jugador>
+		<jugador posicion="centrocampista">
+			<nombre>Maitane Lopez</nombre>
+			<nacionalidad>Española</nacionalidad>
+		</jugador>
+		<jugador posicion="centrocampista">
+			<nombre>Alba Aznar</nombre>
+			<nacionalidad>Española</nacionalidad>
+		</jugador>
+		<jugador posicion="delantero">
+			<nombre>Lucia Gómez</nombre>
 			<nacionalidad>española</nacionalidad>
 		</jugador>
 		<jugador posicion="delantero">
-			<nombre>Nong</nombre>
-			<nacionalidad>camerunés</nacionalidad>
+			<nombre>Charlyn Corral</nombre>
+			<nacionalidad>mexicana</nacionalidad>
 		</jugador>
-		<jugador posicion="centrocampista">
-			<nombre>Jose Luis Morales</nombre>
-			<nacionalidad>Española</nacionalidad>
-		</jugador>
+
+
 	</jugadores>
 
 </futbol>

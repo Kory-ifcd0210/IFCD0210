@@ -1,0 +1,8 @@
+15:05:23:172 [ALWAYS]	GUDE Logging Started
+15:05:23:192 [WARN]	SqliteResumeCache::SqliteResumeCache sqliteResumeTransfer.db successfully opened
+15:05:23:194 [WARN]	SqliteResumeCache::clearOutdatedCache deleting outdated cache
+15:05:23:194 [WARN]	SqliteResumeCache::SqliteResumeCache sqliteResumeTransfer.db successfully opened
+23:16:06:595 [ALWAYS]	GUDE Logging Started
+23:16:06:596 [WARN]	SqliteResumeCache::SqliteResumeCache sqliteResumeTransfer.db successfully opened
+23:16:06:597 [WARN]	SqliteResumeCache::clearOutdatedCache deleting outdated cache
+23:16:06:598 [WARN]	SqliteResumeCache::SqliteResumeCache sqliteResumeTransfer.db successfully opened
