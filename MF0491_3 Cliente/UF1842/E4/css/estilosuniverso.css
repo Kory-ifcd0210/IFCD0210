@@ -1,0 +1,165 @@
+/*selector universal*/
+*{
+	margin:0;
+	padding: 0;
+}
+
+/*selectores tipo elemento*/
+header{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+body{
+	background-color: black;
+	color: silver;
+	font-family: helvetica;
+}
+
+p{
+	text-align: justify;
+}
+
+aside{
+	background-color: rgba(3, 14, 93, 0.2);
+	float: left;
+	border-radius: 30px;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	margin-left: 8%;
+	margin-top: 1%;
+	height: 80vmax;
+	width: 18%;
+}
+
+section{
+	float: left;
+	width: 60%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+footer{
+	clear: both;
+    position: relative;
+    margin-top: -200px;
+    height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
+
+/*llamada a clases*/
+.ds{
+	margin-left: 10%;
+}
+
+.titulos{
+	font-weight: bold;
+}
+
+/*estilos para posición de tabla y encabezados*/
+.tabla{
+	float: left;
+	position: relative;
+	margin-top: 2%;
+	text-align: center;
+}
+
+thead{
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(3, 14, 93, 0.2);
+}
+
+.tabla table tbody .linea td{
+	background-color: rgba(3, 14, 93, 0.2);
+}
+
+ /*escalar imagen. Modificado y adaptado de plantilla https://blog.interactius.com/12-efectos-css-en-una-imagen-con-el-evento-hover-5026b5cf1983*/
+    .img{
+        border-radius: 10px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;   
+        transform:scale(0.5);
+    }      
+        .img:hover{
+            transform:scale(2);
+        }
+
+/*estilo de imagenes y pie de foto*/
+#foto{
+	float: left;
+	margin-top: 5%;
+	margin-left:10%;
+}
+
+.piefoto{
+	text-align: right;
+	font-size: 12px;
+	color: #FAFB80;
+}
+
+/*marco de texto*/
+fieldset{
+	width: 100%;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%; 
+}
+
+/*llamada de id*/
+#importante{
+	box-shadow: 2px 2px 15px #426254;
+	margin-bottom: 2%;
+}
+
+/*estilos de formulario para hacer columnas*/
+#formulario{
+	background-color: #426254;
+	border-radius: 30px;
+}
+
+.colder{
+	padding: 10px;
+	float: left;
+	width: 45%;
+	text-align: justify;
+}
+
+.colizq{
+	padding: 10px;
+	float: right;
+	width: 45%;
+	text-align: justify;
+}
+
+
+/*estilo para enlace con pseudo-clases*/
+aside a{
+	color: #FAFB80;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a .href{
+	text-align: right;
+}
+
+a:hover{
+	color: blue;
+}
+
+span:hover{
+	color: blue;
+}
+
+a:visited{
+	text-decoration: line-through;
+}
+
