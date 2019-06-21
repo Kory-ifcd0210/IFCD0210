@@ -79,17 +79,18 @@ thead{
 }
 
  /*escalar imagen. Modificado y adaptado de plantilla https://blog.interactius.com/12-efectos-css-en-una-imagen-con-el-evento-hover-5026b5cf1983*/
-    .img{
-        border-radius: 10px;
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;   
-        transform:scale(0.5);
-    }      
-        .img:hover{
-            transform:scale(2);
-        }
+.img{
+    border-radius: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;   
+    transform:scale(0.5);
+}      
+
+.img:hover{
+    transform:scale(2);
+}
 
 /*estilo de imagenes y pie de foto*/
 .imgcontext{
@@ -157,9 +158,5 @@ a:hover{
 
 span:hover{
 	color: blue;
-}
-
-a:visited{
-	text-decoration: line-through;
 }
 

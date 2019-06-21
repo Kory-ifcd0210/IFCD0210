@@ -35,12 +35,13 @@
 <body>
 	<!--Encabezado de la web-->
 	<header>
-		<p>Bienvenid@ <script ></script></p>
+		<p id="bv">Bienvenid@ </p>
 		<h1>6 de las Galaxias más impactantes del Universo</h1>
 	</header>
 	<hr>
 	<aside>
-			<p><h3>Tipos de Galaxias</h3>
+			<p>
+				<h3>Tipos de Galaxias</h3>
 				 Una descripción algo más detallada, basada en su apariencia, es la provista por la secuencia de Hubble, propuesta en el año 1936. Este esquema, que solo descansa en la apariencia visual, no toma en cuenta otros aspectos, tales como la tasa de formación de estrellas o la actividad del núcleo galáctico. 
 			</p>
 			<br>
@@ -67,8 +68,9 @@
 				</dl>
 				<br>
 				<!--enlace a otra nueva pestaña-->
-				<a href="https://es.wikipedia.org/wiki/Galaxia" target="ventana-1">Leer más...</a>
-		
+				<div style="text-align: right;">
+					<a href="https://es.wikipedia.org/wiki/Galaxia" target="ventana-1">Leer más...</a>
+				</div>
 	</aside>
 
 	<section>
@@ -171,7 +173,7 @@
 					<br>
 					<p>Correo: <input type="email" name="correo" size="40" placeholder="strange@marvel.com">
 						Profesión: <select>
-							<option value="null">...</option>
+							<option value="nada">...</option>
 							<optgroup label="Estudiante">
 								<option value="ciencias">Ciencias</option>
 								<option value="hum">Humanidades</option>
@@ -180,6 +182,7 @@
 								<option value="tec">Tecnológico</option>
 								<option value="cons">Construcción</option>
 								<option value="att">Atención al Público</option>
+								<option value="art">Artístico</option>
 							</optgroup>
 
 						</select>
