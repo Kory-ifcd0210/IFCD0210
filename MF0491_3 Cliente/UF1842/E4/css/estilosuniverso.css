@@ -92,7 +92,7 @@ thead{
         }
 
 /*estilo de imagenes y pie de foto*/
-#foto{
+.imgcontext{
 	float: left;
 	margin-top: 5%;
 	margin-left:10%;

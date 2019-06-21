@@ -11,44 +11,33 @@
 	<title>Galaxias</title>
 	<link rel="stylesheet" href="../css/estilosuniverso.css">
 	<meta name="keywords" content="universo, galaxias, supernova, web, examen">
-	<!--enlace con hoja de js-->
-	<script src="../js/javascript.js"></script>
 
-	<!--zoom en imagen con plantilla-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="../js/ddpowerzoomer.js">
-
+<!--ZOOM en imagen con plantilla
 /***********************************************
 * Image Power Zoomer- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * Please keep this notice intact
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
 >>>> PLANTILLA <<< http://dynamicdrive.com/dynamicindex4/powerzoomer.htm
-***********************************************/
-	</script>
+***********************************************/-->
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/ddpowerzoomer.js"></script>
 
 	<script type="text/javascript">
-	jQuery(document).ready(function($){ //fire on DOM ready
-
-	
-	EXAMPLE 1:
-	$('#foto').addpowerzoom()
-/*
-	EXAMPLE 2:
-	$('img.vacation').addpowerzoom({
-		defaultpower: 2,
-		powerrange: [2,5],
-		largeimage: null,
-		magnifiersize: [100,100] //<--no comma following last option!
-	})
-	*/
-	})
+		jQuery(document).ready(function($){ //fire on DOM ready
+		$('#foto').addpowerzoom({
+	  	magnifiersize: [120, 120]})
+		})
 	</script>
 
 </head>
 
 <body>
 	<!--Encabezado de la web-->
-	<header><h1>6 de las Galaxias más impactantes del Universo</h1></header>
+	<header>
+		<p>Bienvenid@ <script ></script></p>
+		<h1>6 de las Galaxias más impactantes del Universo</h1>
+	</header>
 	<hr>
 	<aside>
 			<p><h3>Tipos de Galaxias</h3>
@@ -144,9 +133,9 @@
 		<br>	
 		<p>Los estudios de cielo profundo muestran que las galaxias se encuentran a menudo en grupos y cúmulos. Las galaxias solitarias que no han interactuado de forma apreciable con otra de masa comparable en los últimos mil millones de años son relativamente escasas. Se ha encontrado que solo el 5% de las galaxias estudiadas se puede considerar realmente aisladas; no obstante, estas formaciones aisladas pueden haber interactuado e incluso haberse fusionado con otras galaxias en el pasado y pueden tener todavía en órbita pequeñas galaxias satélite. Las galaxias aisladas pueden producir estrellas a velocidad superior a la normal, ya que no hay galaxias cercanas que las estén despojando del gas. En ocasiones se usa la expresión galaxia de campo para referirse a una galaxia aislada, aunque también se emplea para describir las galaxias que pertenecen a grupos sin ser miembros de cúmulos. </p>
 
-		<div id="foto">
+		<div class="imgcontext">
 			<!--Imagen con descripción-->
-			<img src="https://images.ecosia.org/9Lpp6uajU-XfzCIF8oe4kTHVl0o=/0x390/smart/http%3A%2F%2Fwww.westcoastplacer.com%2Fwp-content%2Fuploads%2F2015%2F05%2Fsupernova-25884-1366x768.jpg"/>
+			<img id="foto" src="https://images.ecosia.org/9Lpp6uajU-XfzCIF8oe4kTHVl0o=/0x390/smart/http%3A%2F%2Fwww.westcoastplacer.com%2Fwp-content%2Fuploads%2F2015%2F05%2Fsupernova-25884-1366x768.jpg"/>
 			<p class="piefoto">Explosión de una supernova</p>
 		</div>
 
@@ -181,6 +170,19 @@
 					</p>
 					<br>
 					<p>Correo: <input type="email" name="correo" size="40" placeholder="strange@marvel.com">
+						Profesión: <select>
+							<option value="null">...</option>
+							<optgroup label="Estudiante">
+								<option value="ciencias">Ciencias</option>
+								<option value="hum">Humanidades</option>
+							</optgroup>
+							<optgroup label="Sector profesional">
+								<option value="tec">Tecnológico</option>
+								<option value="cons">Construcción</option>
+								<option value="att">Atención al Público</option>
+							</optgroup>
+
+						</select>
 					</p>
 				</div>
 					
@@ -200,6 +202,9 @@
 		</div>
 
 	</footer>
+
+	<!--enlace con hoja de js recomendado colocar al final del body-->
+	<script src="../js/javascript.js"></script>
 
 </body>
 </universo>
