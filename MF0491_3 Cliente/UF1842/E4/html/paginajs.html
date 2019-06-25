@@ -20,12 +20,21 @@
 		</nav>
 	</header>
 
-	<section>
-		<form>
-			<h3>Calcula el factorial de...</h3>
-			<p>Número <input type="num" name="numero" required>
-				<input type="button" value="factiorial" onclick="run()">
+	<aside>
+		<h2>Operaciones con JavaScript</h2>
+		<br />
+		<form onsubmit="javascript: factorial ();return (false);">
+			<h4>Calcula el factorial de...</h4>
+			Número: <input type="text" name="n" id="n" />
+			<input type="submit" value="Calcular" />
+			<br />
+			Factorial: <input type="text" name="resultado" id="resultado" />			
 		</form>
+	</aside>
+
+	<section>
+		<h2>Winamp</h2>
+		
 	</section>
 
 	<script type="text/javascript" src="../js/javascript.js"></script>

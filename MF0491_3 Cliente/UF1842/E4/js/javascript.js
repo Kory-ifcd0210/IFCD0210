@@ -1,7 +1,9 @@
-/*factorial de un numero con funcion que se llama a sí misma*/
+/*factorial de un numero sacando el valor introducido por pantalla del DOM*/
 
-function factorial(n) {
-  return (n != 1) ? n * factorial(n - 1) : 1;
+function factorial (){
+	var factorial = 1;
+        for (var i=1; i <= document.getElementById ('n').value; i++){
+            factorial *= i;
+        }
+        document.getElementById ('resultado').value = factorial;
 }
-
-alert( factorial(num) );
