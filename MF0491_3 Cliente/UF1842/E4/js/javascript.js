@@ -1,25 +1,7 @@
-//boton click aqui
-window.onload = function() {
-    document.getElementById('lanzar_alerta').onclick = function () {
-    alert('holiiiiis :3');
-    }
+/*factorial de un numero con funcion que se llama a sí misma*/
+
+function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
 }
-/* ALERT inicio página que funciona pero ya no voy a usar
-alert("holis! :3")
-*/
 
-//Para ingresar, guardar y mostrar tu nombre en "Bienvenido"
-var nombre;
-nombre=prompt("Ingresa tu nombre");
-//document.write(nombre);
-var text = document.createTextNode(nombre); 
-document.getElementById("bv").appendChild(text);
-alert("Que disfrutes de tu paseo por las estrellas " + nombre);
-
-/*agregartxt1();
-
-function agregartxt1(){                
-var text = document.createTextNode(nombre);                                    
-document.getElementById("bv").appendChild(text); 
-*/
-
+alert( factorial(num) );
