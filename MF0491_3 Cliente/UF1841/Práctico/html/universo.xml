@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3%20Cliente/UF1841/Pr%C3%A1ctico/universoeschema.xsd">
+	<galaxias>
+		<nombre>Galaxia del Sombrero</nombre>
+		<tipo>espiral</tipo>
+		<posicion>Constelación de virgo</posicion>
+		<magnitud>9.0</magnitud>
+	</galaxias>
+	<galaxias>
+		<nombre>Galaxia del Ojo Negro</nombre>
+		<tipo>espiral</tipo>
+		<posicion>-</posicion>
+		<magnitud>-</magnitud>
+	</galaxias>
+	<galaxias>
+		<nombre>Galaxia Par Ocultador</nombre>
+		<tipo>espiral</tipo>
+		<posicion>Junto a galaxia Escultor</posicion>
+		<magnitud>-</magnitud>
+	</galaxias>
+	<galaxias>
+		<nombre>Galaxia Remolino</nombre>
+		<tipo>espiral</tipo>
+		<posicion>constelación Canes Venatici</posicion>
+		<magnitud>9.0</magnitud>
+	</galaxias>
+	<galaxias>
+		<nombre>Galaxia Magnífica Espiral</nombre>
+		<tipo>espiral</tipo>
+		<posicion>-</posicion>
+		<magnitud>-</magnitud>
+	</galaxias>
+	<galaxias>
+		<nombre>Galaxia Supernova 1987A</nombre>
+		<tipo>-</tipo>
+		<posicion>constelacion dorado</posicion>
+		<magnitud>2.9</magnitud>
+	</galaxias>
+</universo>
