@@ -1,0 +1,157 @@
+/*selector universal*/
+*{
+	margin:0;
+	padding: 0;
+}
+
+/*selectores tipo elemento*/
+header{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+body{
+	background-image: url("https://cdn.wallpapersafari.com/76/18/iqrL7E.jpg");
+	background-size: 100% auto;
+	color: #e4ddd4;
+	font-family: 'Oranienbaum', serif;
+}
+
+p{
+	text-align: justify;
+}
+
+aside{
+	background-color: white;
+	color: #5e3f27;
+	float: right;
+	border-radius: 20px;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	margin-right: 8%;
+	margin-top: 1%;
+	height: 100%;
+	width: 18%;
+}
+
+section{
+	float: left;
+	width: 60%;
+	margin-left: 8%;
+	margin-top: 2%;
+	font-size: 20px;
+}
+
+/*Columnas*/
+.colder{
+	float: left;
+	width: 50%;
+}
+.colizq{
+	float: right;
+	width: 50%;
+}
+
+.colizqbg{
+	background-color: #5e3f27;
+	padding: 10px;
+	float: right;
+	width: 45%;
+	text-align: justify;
+}
+
+#mp {
+	background-color: red;
+	margin-right: 10%;
+	margin-top: 20%;
+
+}
+
+footer{
+	clear: both;
+    position: relative;
+    height: 80%;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
+
+/*llamada a clases*/
+.ds{
+	margin-left: 10%;
+}
+
+.titulos{
+	font-weight: bold;
+}
+
+ /*escalar imagen. Modificado y adaptado de plantilla 
+ https://blog.interactius.com/12-efectos-css-en-una-imagen-con-el-evento-hover-5026b5cf1983*/
+.img{
+    border-radius: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;   
+    transform:scale(0.5);
+}      
+
+.img:hover{
+    transform:scale(2);
+}
+
+/*estilo de imagenes y pie de foto*/
+#foto{
+	width: 100%;
+}
+
+.piefoto{
+	text-align: right;
+	font-size: 12px;
+	color: #FAFB80;
+}
+
+/*marco de texto*/
+fieldset{
+	width: 100%;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	margin-top: 3%; 
+	background-color: #5e3f27;
+	border-color: #312012;
+	border-radius: 10px;
+}
+
+/*llamada de id*/
+#importante{
+	box-shadow: 2px 2px 15px #312012;
+	margin-bottom: 2%;
+}
+
+/*estilo para enlace con pseudo-clases*/
+aside a{
+	color: #5e3f27;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a p{
+	text-align: right;
+	margin-right: 8%;
+}
+
+a p:hover{
+	color: black;
+	font-weight: bold;
+	transform: scale(1.2);
+	transition: all 1.7 ease;
+}
+
+span:hover{
+	color: black;
+}
+

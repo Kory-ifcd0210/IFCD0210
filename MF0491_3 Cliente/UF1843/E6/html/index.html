@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<!--encabezado para xhtml y vinculación con el eschema xml-->
+<universo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:\IFCD0210\MF0491_3 Cliente\UF1841\Práctico\html">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<html>
+<head>
+<!--Cabecera, link con hoja de estilos CSS y metadatos-->
+	<meta charset="utf-8" />
+	<title>Steampunk</title>
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/acces.css">
+	<link rel="stylesheet" href="../css/nav.css">
+	<meta name="description" content="Ejercicio de HTML5 con accesibilidad y usabilidad" />
+	<meta name="keywords" content="steampunk, HTML5, CSS3, JS">
+	
+<!--Script para zoom en foto-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/ddpowerzoomer.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($){ //fire on DOM ready
+		$('#foto').addpowerzoom({
+	  	magnifiersize: [120, 120]})
+		})
+	</script>
+
+<!--Script para sección de accesibilidad
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.min.js"></script>-->	 
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<a name="arriba"></a><a href="#abajo">.</a>
+	<!--Encabezado de la web-->
+	<header>
+		<p id="bv">Bienvenid@ </p>
+		<h1>¿Qué es el Steampunk</h1>
+	<!--	<nav>
+			<ul>
+    			<li><a title="Home" href="./index.html">Home</a></li>
+                <li><a title="Multimedia" href="./multimedia.html">Multimedia</a></li>
+			</ul>
+		</nav>
+	-->
+	<!--Menú de navegación por plantilla-->
+	<div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a href="./index.html" data-content="The beginning">Home</a></li>
+      <li><a href="#" data-content="Curious?">About</a></li>
+      <li><a href="#" data-content="I got game">Skills</a></li>
+      <li><a href="./multimedia.html" data-content="Only the finest">Works</a></li>
+      <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+<section class="home">
+   <!-- <a href="https://codepen.io/fluxus/pen/gPWxXJ" target="_blank">Click for CSS version</a> -->
+  <div class="open-overlay">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+</section>
+
+	</header>
+	<hr>
+	<section>
+		
+		<article class="colder">
+			<p>El steampunk fue, en sus inicios, un subgénero literario nacido dentro de la ciencia ficción especulativa que surgió durante la década de 1980 de la mano de escritores conocidos por sus trabajos ciberpunk. A día de hoy, este subgénero ha madurado hasta convertirse en un movimiento artístico y sociocultural y no tan solo literario. </p>
+			<br />
+			<h4>Steampunk en el Cine</h4>
+			<p>A pesar de que el steampunk es relativamente nuevo, el atractivo al público, la majestuosidad del subgénero y la maleabilidad de este encajan perfectamente con la moderna cinematografía, ofreciendo, día a día, una mayor cantidad de títulos donde las características del steampunk se hacen más notorias. No sería hasta 1999, con la película Wild Wild West,10​ cuando el subgénero tomo importancia dentro de las salas de cine. A esta película Weird West con tintes steampunk les seguirían muchas otras como Metrópolis (メトロポリス Metoroporisu?) (2001) de Osamu Tezuka, la versión cinematográfica de la novela gráfica de Alan Moore, La Liga de los Hombres Extraordinarios (2003) o La brújula dorada (2007), película basada en la novela Luces del norte de Philip Pullman, entre otras tantas películas que han tocado este subgénero. </p>
+		</article>
+		<article class="colizqbg">
+					<!--Imagen con descripción-->
+			<img id="foto" src="http://img04.deviantart.net/c59c/i/2013/356/6/7/steampunk_xxi_by_luria_xxii-d6yyef4.jpg"/>
+			<p class="piefoto">Ejemplo de vestimenta Steampunk</p>
+		</article>
+		<br/>
+		<br />
+			<!--Texto con marco-->
+		<fieldset id="importante"> <legend><h3>Más que un género</h3></legend>
+			<p>El steampunk se desenvuelve en una ambientación donde la tecnología a vapor sigue siendo la predominante y por lo general localizada en Inglaterra durante la época victoriana, donde no es extraño encontrar elementos comunes de la ciencia ficción o la fantasía.</p>
+		</fieldset>
+
+	</section>
+	<aside>
+		<h2>Accesibilidad</h2>
+		<br/>
+		<p>Puedes <strong>elegir</strong> entre las diferentes opciones, haciendo clic. Si quieres <strong>deshacer los cambios</strong>, pulsa la tecla <em>F5</em>.</p>
+		
+		<ul>
+			<li id="tema-claro" class="lista-acc" title="Aplica una combinación de colores claros, con la letra en un tono oscuro,&#10;al hacer clic sobre este botón.">Tema claro</li>
+			<li id="tema-oscuro" class="lista-acc" title="Aplica una combinación de colores oscuros, con la letra en un tono claro,&#10;al hacer clic sobre este botón.">Tema oscuro</li>
+			<li id="agrandar-letra" class="lista-acc" title="Aumenta el tamaño de la letra al hacer clic sobre este botón.">AaBbCc++</li>
+			<li id="disminuir-letra" class="lista-acc" title="Disminuye el tamaño de la letra, al predeterminado,&#10;al hacer clic sobre este botón.">AaBbCc--</li>
+		</ul>
+
+		<hr/>
+		<br/>
+			<p>
+				<h3>Definición de Steampunk</h3>
+				<br/>
+				 Las obras de temática steampunk a menudo muestran tecnologías anacrónicas o invenciones futuristas imaginadas por los visionarios de su época, todas ellas vistas desde la perspectiva victoriana en la cultura, el arte, la moda e incluso la arquitectura.
+				 	<br/>
+				 	<br/>
+				 El steampunk se inspira principalmente en los trabajos de H. G. Wells y Julio Verne y del imaginario encontrado en sus obras,3​ por lo que, al igual que el dieselpunk, este subgénero se puede englobar dentro del movimiento retrofuturista, el género de las ucronías y la ficción especulativa, pero su tendencia a incorporar elementos fantásticos y el carácter más desenfadado y utópico de sus tramas lo alejan tanto del dieselpunk como del cyberpunk. 
+			</p>
+			<br>
+				<!--enlace a otra nueva pestaña-->
+				<a href="https://es.wikipedia.org/wiki/Steampunk" target="ventana-1"><p>Leer más...</p>
+				</a>
+				<h4>Vídeo embebido de Youtube</h4>
+        		<iframe width="100%" src="https://www.youtube.com/embed/tylmqpx6Grk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        		</iframe>
+        	<br />
+	</aside>
+	
+	<footer>
+		<div class="button"><a href="#arriba"><img class="button" src="../img/top-button.png"></img></a><a name="abajo"></a></div>
+	</footer>
+	<div class="button"><a href="#arriba"><img class="button" src="../img/top-button.png"></img></a><a name="abajo"></a></div>
+	<!--enlace con hoja de js recomendado colocar al final del body-->
+	<script src="../js/alertas.js"></script>
+	<script src="../js/acces.js"></script>
+	<script src="../js/nav.js"></script>
+
+</body>
+</universo>
+</html>
