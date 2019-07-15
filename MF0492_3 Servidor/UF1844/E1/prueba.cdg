@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML Class Diagram">
+  <ClassDiagramComponents>
+    <Class name="Cliente" package="" visibility="public" xPosition="170.0" yPosition="61.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Cliente personal" package="" visibility="public" xPosition="52.0" yPosition="235.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Cliente corporativo" package="" visibility="public" xPosition="315.0" yPosition="235.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Pedido" package="" visibility="public" xPosition="461.0" yPosition="61.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Línea de pedido" package="" visibility="public" xPosition="746.0" yPosition="61.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Producto" package="" visibility="public" xPosition="993.0" yPosition="61.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Vendedor" package="" visibility="public" xPosition="868.0" yPosition="291.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Tarjeta de Crédito" package="" visibility="public" xPosition="52.0" yPosition="398.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Contratos" package="" visibility="public" xPosition="352.0" yPosition="398.0">
+      <Fields>
+        <Field name="lineaCredito" type="Integer" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Sistema de pago" package="" visibility="public" xPosition="170.0" yPosition="547.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="consultaSaldo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="usar metodo de pago" source="Cliente personal" target="Tarjeta de Crédito" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="atendido por" source="Cliente corporativo" target="Vendedor" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Contratos" target="Sistema de pago"/>
+    <HasRelation name="consta de" source="Pedido" target="Línea de pedido" type="Composition" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+    <IsRelation name="is" source="Cliente personal" target="Cliente"/>
+    <HasRelation name="realiza" source="Cliente" target="Pedido" type="Default" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+    <HasRelation name="Formado por" source="Línea de pedido" target="Producto" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+    <IsRelation name="is" source="Tarjeta de Crédito" target="Sistema de pago"/>
+    <HasRelation name="atender" source="Vendedor" target="Cliente corporativo" type="Default" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+    <HasRelation name="que forma" source="Producto" target="Línea de pedido" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+    <HasRelation name="que constan" source="Línea de pedido" target="Pedido" type="Composition" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Consultar" source="Vendedor" target="Sistema de pago" sourceCardinality="0..*" targetCardinality="1..1"/>
+    <HasRelation name="usado por" source="Tarjeta de Crédito" target="Cliente personal" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="usado por" source="Contratos" target="Cliente corporativo" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="es realizado por" source="Pedido" target="Cliente" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="usar metodo de pago" source="Cliente corporativo" target="Contratos" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Cliente corporativo" target="Cliente"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
