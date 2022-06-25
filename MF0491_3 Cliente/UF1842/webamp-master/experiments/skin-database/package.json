@@ -11,7 +11,7 @@
     "imagemin-optipng": "^7.0.0",
     "md5": "^2.2.1",
     "monk": "^7.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "puppeteer": "^1.17.0",
     "rgb-hex": "^2.1.0",
     "temp": "^0.9.0",
